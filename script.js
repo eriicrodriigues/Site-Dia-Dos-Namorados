@@ -249,3 +249,17 @@ document.querySelectorAll(".galeria img").forEach(img => {
     musica.muted = false;
     musica.play();
   }, { once: true });
+
+  // Verificador da senha
+  function verificarSenha() {
+    const senhaCorreta = "130620181752"; 
+    const input = document.getElementById("senhaInput").value;
+  
+    if (input === senhaCorreta) {
+      document.getElementById("acessoSenha").style.display = "none";
+      document.getElementById("areaProtegida").style.display = "block";
+    } else {
+      document.getElementById("erroSenha").textContent = "Senha incorreta. Tente novamente 💔";
+    }
+  }
+  

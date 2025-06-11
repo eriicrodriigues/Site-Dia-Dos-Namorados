@@ -101,6 +101,15 @@
         </div>
     </div>
 
+    <div id="acessoSenha" class="container-senha">
+        <h2>Área Secreta 💌</h2>
+        <p>Digite a senha para acessar a surpresa:</p>
+        <input type="password" id="senhaInput" placeholder="Digite a senha">
+        <button onclick="verificarSenha()">Entrar</button>
+        <p id="erroSenha" style="color: red;"></p>
+    </div>
+
+    <div id="areaProtegida" style="display: none;">
     <h1>Preliminares 😈</h1>
 
     <div class="dados-palavras">
@@ -122,6 +131,7 @@
         <button onclick="rolarDado()">Rolar o dado</button>
         <br>
         <p id="tempoRestante">⏳ Tempo restante: --:--</p>
+    </div>
     </div>
 
     <canvas id="coracoes"></canvas>
