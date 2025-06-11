@@ -145,7 +145,7 @@ document.querySelectorAll(".galeria img").forEach(img => {
   
     dado.style.transform = "rotate(360deg)";
     setTimeout(() => {
-      dado.src = `./dado/face${numero}.jpeg`;
+      dado.src = `./Dado/face${numero}.jpg`;
       dado.style.transform = "rotate(0deg)";
     }, 300);
   
