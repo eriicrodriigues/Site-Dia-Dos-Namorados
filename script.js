@@ -243,3 +243,9 @@ document.querySelectorAll(".galeria img").forEach(img => {
         dado2.classList.remove("rolando");
     }, 500); // mesmo tempo da animação
   }
+
+  document.body.addEventListener("click", () => {
+    const musica = document.getElementById("musica");
+    musica.muted = false;
+    musica.play();
+  }, { once: true });
