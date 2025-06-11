@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia dos Namorados ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="musica" autoplay loop>
+        <source
+            src="./Música/Henrique e Juliano -  TINTA DE AMOR, REALIDADE OU FANTASIA, DUAS VIDAS - TO BE Ao Vivo Em Brasília.mp"
+            type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+    <audio id="somDado">
+        <source src="./Música/dice-142528.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+    <audio id="somAlarme">
+        <source src="./Música/success-221935.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <div id="lightbox" class="lightbox">
+        <span class="fechar" onclick="fecharLightbox()">&times;</span>
+        <img id="imagemAmpliada" src="" alt="Imagem em destaque">
+    </div>
+
+    <h1>Feliz Dia dos Namorados! ❤️</h1>
+
+    <div class="container">
+        <p>Estamos juntos há:</p>
+        <div id="contador"></div>
+
+        <p id="frase"></p>
+
+        <p>Desde o pedido</p>
+
+        <div class="galeria">
+            <img src="./Fotos/20181.jpg" alt="Foto 1">
+            <img src="./Fotos/20182.jpg" alt="Foto 2">
+            <img src="./Fotos/20183.jpg" alt="Foto 3">
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" id="svg5" version="1.1" viewBox="-5 -5 278 56">
+            <filter id="blur">
+                <feGaussianBlur stdDeviation="1.6" />
+            </filter>
+            <g id="layer1" transform="translate(29.1 -127.42)">
+                <path id="line"
+                    d="M-28.73 167.2c26.43 9.21 68.46-9.46 85.45-12.03 18.45-2.78 32.82 4.86 28.75 9.83-3.82 4.66-25.77-21.18-14.81-31.5 9.54-8.98 17.64 10.64 16.42 17.06-1.51-6.2 2.95-26.6 14.74-22.11 11.7 4.46-4.33 49.03-15.44 44.08-6.97-3.1 15.44-16.26 26.1-16 23.03.56 55.6 27.51 126.63 3.36"
+                    pathLength="1" />
+            </g>
+            <g id="layer2" transform="translate(29.1 -127.42)">
+                <path filter="url(#blur)" id="point"
+                    d="M-28.73 167.2c26.43 9.21 68.46-9.46 85.45-12.03 18.45-2.78 32.82 4.86 28.75 9.83-3.82 4.66-25.77-21.18-14.81-31.5 9.54-8.98 17.64 10.64 16.42 17.06-1.51-6.2 2.95-26.6 14.74-22.11 11.7 4.46-4.33 49.03-15.44 44.08-6.97-3.1 15.44-16.26 26.1-16 23.03.56 55.6 27.51 126.63 3.36"
+                    pathLength="1" />
+            </g>
+        </svg>
+
+        <p>Para todo o sempre... 💍</p>
+        <p>Eric ∞ Hellen</p>
+    </div>
+    <br>
+    <h1>Nossos Dias dos Namorados ❤️</h1>
+    <div class="encontros">
+        <div class="ano" data-ano="2019">
+            <img src="./Fotos/20191.jpg" alt="2019 - Foto 1">
+            <img src="./Fotos/20192.jpg" alt="2019 - Foto 2">
+            <img src="./Fotos/20193.jpg" alt="2019 - Foto 3">
+        </div>
+        <div class="ano" data-ano="2020">
+            <img src="./Fotos/20201.jpg" alt="2020 - Foto 1">
+            <img src="./Fotos/20202.jpg" alt="2020 - Foto 2">
+            <img src="./Fotos/20203.jpg" alt="2020 - Foto 3">
+        </div>
+        <div class="ano" data-ano="2021">
+            <img src="./Fotos/20211.jpg" alt="2021 - Foto 1">
+            <img src="./Fotos/20212.jpg" alt="2021 - Foto 2">
+            <img src="./Fotos/20213.jpg" alt="2021 - Foto 3">
+        </div>
+        <div class="ano" data-ano="2022">
+            <img src="./Fotos/20221.jpg" alt="2022 - Foto 1">
+            <img src="./Fotos/20222.webp" alt="2022 - Foto 2">
+            <img src="./Fotos/20223.jpg" alt="2022 - Foto 3">
+        </div>
+        <div class="ano" data-ano="2023">
+            <img src="./Fotos/20231.jpg" alt="2023 - Foto 1">
+            <img src="./Fotos/20232.jpeg" alt="2023 - Foto 2">
+            <img src="./Fotos/20233.jpg" alt="2023 - Foto 3">
+        </div>
+        <div class="ano" data-ano="2024">
+            <img src="./Fotos/20241.jpg" alt="2024 - Foto 1">
+            <img src="./Fotos/20242.webp" alt="2024 - Foto 2">
+            <img src="./Fotos/20243.jpg" alt="2024 - Foto 3">
+        </div>
+        <div class="ano" data-ano="Em breve 2025...">
+
+        </div>
+    </div>
+
+    <h1>Preliminares 😈</h1>
+
+    <div class="dados-palavras">
+        <h2>Role os dados 💘</h2>
+        <div class="dados-texto">
+            <div id="dado1-texto" class="dado-texto">Dados do</div>
+            <div id="dado2-texto" class="dado-texto">Amor ❤️</div>
+        </div>
+        <button onclick="rolarDadosPalavras()">Rolar os dados</button>
+        <p id="fraseCombinada"></p>
+    </div>
+
+    <h1>Sapecagens 😈</h1>
+
+    <div class="dado-container">
+        <h2>Dado de Posições 🎲😈❤️</h2>
+        <img id="dado" src="./dado/face0.jpg" alt="Dado do Amor" onclick="ampliarDado(this.src)">
+        <br>
+        <button onclick="rolarDado()">Rolar o dado</button>
+        <br>
+        <p id="tempoRestante">⏳ Tempo restante: --:--</p>
+    </div>
+
+    <canvas id="coracoes"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
